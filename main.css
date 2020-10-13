@@ -1,0 +1,54 @@
+/* reset */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* type */
+
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 38px;
+    line-height: 1.4;
+    background-color: #fefefe;
+}
+
+/* structure */
+
+.content {
+  max-width: 1000px;
+  padding: 100px 30px;
+  margin: auto;
+  font-weight: 300;
+}
+
+.content p {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.pink {
+  text-decoration: none;
+  color: pink;
+  background-color: #fdfd96;
+  transition: all 0.1s ease;
+}
+
+.pink:hover {
+  background: rgb(200,102,191);
+  background: linear-gradient(90deg, rgba(200,102,191,1) 0%, rgba(233,102,219,1) 51%, rgba(236,178,247,1) 100%);
+}
+
+.yellow {
+  text-decoration: none;
+  color: yellow;
+  background-color: #fdfd96;
+  transition: all 0.1s ease;
+}
+
+.yellow:hover {
+  background: rgb(194,200,102);
+  background: linear-gradient(90deg, rgba(194,200,102,1) 0%, rgba(233,233,102,1) 51%, rgba(246,247,178,1) 100%);
+}
